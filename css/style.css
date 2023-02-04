@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arsenal', sans-serif;
+    height: 100vh;
+    display:flex;
+}
+
+.container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container h2{
+    padding: 10px;
+    color:white;
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+
+.container h2:hover{
+    background:rgba(0, 0, 0, 0.1);
+    cursor: pointer;  
+}
+
+.container button{
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+    color: white;
+    transition: background 0.5s;
+}
+
+.container button:hover{
+    background:rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
